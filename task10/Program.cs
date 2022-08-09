@@ -9,5 +9,4 @@ System.Console.Clear();
 System.Console.WriteLine("Пожайлуйста введите трехзначное число ");
 int number = int.Parse(System.Console.ReadLine()!);
 int result = number / 10;
-
 System.Console.WriteLine($"Вторая цифра вашего числа {result % 10}");
